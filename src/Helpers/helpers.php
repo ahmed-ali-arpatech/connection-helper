@@ -1,10 +1,10 @@
 <?php
 
-namespace Connection\Helper\Helpers;
+namespace Eurokat\Helper\Helpers;
 
 
-use Connection\Helpers\Classes\APIHandler;
-use Connection\Helpers\Classes\AuthHandler;
+use Eurokat\Helpers\Classes\APIHandler;
+use Eurokat\Helpers\Classes\AuthHandler;
 
 
 function GetAPI($group, $method, $index, $data, $authToken = NULL){

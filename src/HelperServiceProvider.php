@@ -1,6 +1,6 @@
 <?php
 
-namespace Connection\Helper;
+namespace Eurokat\Helper;
 
 use Illuminate\Support\ServiceProvider;
 

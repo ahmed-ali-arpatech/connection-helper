@@ -1,5 +1,5 @@
 {
-    "name": "connection/helper",
+    "name": "eurokat/helper",
     "description": "n/a",
     "type": "project",
     "license": "MIT",
@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Connection\\Helper\\": "src/"
+            "Eurokat\\Helper\\": "src/"
         }, 
         "files": [
             "src/Helpers/helpers.php"

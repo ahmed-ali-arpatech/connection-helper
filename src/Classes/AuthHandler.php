@@ -1,14 +1,14 @@
 <?php
 
-namespace Connection\Helpers\Classes;
+namespace Eurokat\Helpers\Classes;
 
 use Illuminate\Http\Request;
 use Session;
 
-use function Connection\Helper\Helpers\array_get_value_by_key_value;
-use function Connection\Helper\Helpers\get_global_settings;
-use function Connection\Helper\Helpers\GetAPI;
-use function Connection\Helper\Helpers\handleResponse;
+use function Eurokat\Helper\Helpers\array_get_value_by_key_value;
+use function Eurokat\Helper\Helpers\get_global_settings;
+use function Eurokat\Helper\Helpers\GetAPI;
+use function Eurokat\Helper\Helpers\handleResponse;
 
 class AuthHandler
 {
