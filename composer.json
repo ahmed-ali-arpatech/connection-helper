@@ -1,0 +1,22 @@
+{
+    "name": "connection/helper",
+    "description": "n/a",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Ali",
+            "email": "ahmed.ali@arpatech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Connection\\Helper\\": "src/"
+        }, 
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    },
+    "require": {}
+}
