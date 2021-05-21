@@ -1,6 +1,6 @@
 <?php
 
-namespace Ccm\Helper\Helpers;
+// namespace Ccm\Helper\Helpers;
 
 
 use Ccm\Helpers\Classes\APIHandler;
