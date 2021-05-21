@@ -1,5 +1,5 @@
 {
-    "name": "connection/helper",
+    "name": "ccm/helper",
     "description": "n/a",
     "type": "project",
     "license": "MIT",
@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Connection\\Helper\\": "src/"
+            "Ccm\\Helper\\": "src/"
         }, 
         "classmap": [
             "src/Classes"        

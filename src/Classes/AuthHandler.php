@@ -1,14 +1,14 @@
 <?php
 
-namespace Connection\Helpers\Classes;
+namespace Ccm\Helpers\Classes;
 
 use Illuminate\Http\Request;
 use Session;
 
-use function Connection\Helper\Helpers\array_get_value_by_key_value;
-use function Connection\Helper\Helpers\get_global_settings;
-use function Connection\Helper\Helpers\GetAPI;
-use function Connection\Helper\Helpers\handleResponse;
+use function Ccm\Helper\Helpers\array_get_value_by_key_value;
+use function Ccm\Helper\Helpers\get_global_settings;
+use function Ccm\Helper\Helpers\GetAPI;
+use function Ccm\Helper\Helpers\handleResponse;
 
 class AuthHandler
 {
