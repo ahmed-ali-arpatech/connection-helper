@@ -1,15 +1,20 @@
 <?php
 
-namespace Eurokat\Helper\Helpers;
+namespace Connection\Helper\Helpers;
 
 
-use Eurokat\Helpers\Classes\APIHandler;
-use Eurokat\Helpers\Classes\AuthHandler;
+use Connection\Helpers\Classes\APIHandler;
+use Connection\Helpers\Classes\AuthHandler;
 
 
-function GetAPI($group, $method, $index, $data, $authToken = NULL){
+    function GetAPI($group, $method, $index, $data, $authToken = NULL){
 
         return APIHandler::get($group, $method, $index, $data, $authToken);
+    }
+
+    function testFunction($argu){
+
+        return $argu."- verified";
     }
 
     function handleResponse($response, $callback = NULL){

@@ -1,5 +1,5 @@
 {
-    "name": "eurokat/helper",
+    "name": "connection/helper",
     "description": "n/a",
     "type": "project",
     "license": "MIT",
@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Eurokat\\Helper\\": "src/"
+            "Connection\\Helper\\": "src/"
         }, 
         "classmap": [
             "src/Classes"        

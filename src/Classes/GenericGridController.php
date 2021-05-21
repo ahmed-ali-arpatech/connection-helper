@@ -1,6 +1,6 @@
 <?php
 
-namespace Eurokat\Helpers\Classes;
+namespace Connection\Helpers\Classes;
 
     use App\Http\Controllers\Controller;
     use DateTime;

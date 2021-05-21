@@ -1,6 +1,6 @@
 <?php
 
-namespace Eurokat\Helpers\Classes;
+namespace Connection\Helpers\Classes;
 
 use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\Client;
