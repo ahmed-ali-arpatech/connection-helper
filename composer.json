@@ -14,6 +14,9 @@
         "psr-4": {
             "Eurokat\\Helper\\": "src/"
         }, 
+        "classmap": [
+            "src/Classes"        
+        ],
         "files": [
             "src/Helpers/helpers.php"
         ]
