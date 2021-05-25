@@ -24,12 +24,12 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ccm\\Helper\\src\\Providers\\APIHandlerServiceProvider",
-                "Ccm\\Helper\\src\\Providers\\AuthHandlerServiceProvider"
+                "Ccm\\Helper\\Src\\Providers\\APIHandlerServiceProvider",
+                "Ccm\\Helper\\Src\\Providers\\AuthHandlerServiceProvider"
             ],
             "aliases": {
-                "APIHandler": "Ccm\\Helper\\src\\Facades\\APIHandlerFacade",
-                "AuthHandler": "Ccm\\Helper\\src\\Facades\\AuthHandlerFacade"
+                "APIHandler": "Ccm\\Helper\\Src\\Facades\\APIHandlerFacade",
+                "AuthHandler": "Ccm\\Helper\\Src\\Facades\\AuthHandlerFacade"
             }
         }
     },    

@@ -1,6 +1,5 @@
 <?php
-
-namespace Leads\Providers;
+namespace Ccm\Helpers\Providers;
 
 use Ccm\Helpers\Classes\AuthHandler;
 use Illuminate\Support\ServiceProvider;

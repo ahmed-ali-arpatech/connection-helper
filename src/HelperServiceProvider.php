@@ -1,6 +1,6 @@
 <?php
 
-namespace Eurokat\Helper;
+namespace Ccm\Helper;
 
 use Illuminate\Support\ServiceProvider;
 

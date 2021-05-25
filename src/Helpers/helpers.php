@@ -1,5 +1,4 @@
-<?php
-
+<?php 
 // namespace Ccm\Helper\Helpers;
 
 

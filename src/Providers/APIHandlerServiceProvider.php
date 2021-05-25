@@ -1,6 +1,6 @@
 <?php
+namespace Ccm\Helpers\Providers;
 
-namespace Leads\Providers;
 
 use Ccm\Helpers\Classes\APIHandler;
 use Illuminate\Support\ServiceProvider;
