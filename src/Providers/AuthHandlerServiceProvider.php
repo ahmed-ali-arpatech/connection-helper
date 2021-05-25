@@ -1,7 +1,7 @@
 <?php
-namespace Ccm\Helpers\Providers;
+namespace Ccm\Helper\Providers;
 
-use Ccm\Helpers\Classes\AuthHandler;
+use Ccm\Helper\Classes\AuthHandler;
 use Illuminate\Support\ServiceProvider;
 
 class AuthHandlerServiceProvider extends ServiceProvider

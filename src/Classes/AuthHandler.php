@@ -1,6 +1,6 @@
 <?php
 
-namespace Ccm\Helpers\Classes;
+namespace Ccm\Helper\Classes;
 
 use Illuminate\Http\Request;
 use Session;

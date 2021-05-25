@@ -1,8 +1,7 @@
 <?php
-namespace Ccm\Helpers\Providers;
+namespace Ccm\Helper\Providers;
 
-
-use Ccm\Helpers\Classes\APIHandler;
+use Ccm\Helper\Classes\APIHandler;
 use Illuminate\Support\ServiceProvider;
 
 class APIHandlerServiceProvider extends ServiceProvider

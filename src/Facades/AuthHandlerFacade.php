@@ -1,5 +1,5 @@
 <?php
-namespace Ccm\Helpers\Facades;
+namespace Ccm\Helper\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
