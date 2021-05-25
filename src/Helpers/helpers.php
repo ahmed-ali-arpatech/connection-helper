@@ -2,8 +2,8 @@
 // namespace Ccm\Helper\Helpers;
 
 
-use Ccm\Helpers\Classes\APIHandler;
-use Ccm\Helpers\Classes\AuthHandler;
+use Ccm\Helper\Classes\APIHandler;
+use Ccm\Helper\Classes\AuthHandler;
 
 
     function GetAPI($group, $method, $index, $data, $authToken = NULL){
