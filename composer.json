@@ -21,5 +21,17 @@
             "src/Helpers/helpers.php"
         ]
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ccm\\Helper\\Providers\\APIHandlerServiceProvider",
+                "Ccm\\Helper\\Providers\\AuthHandlerServiceProvider"
+            ],
+            "aliases": {
+                "APIHandler": "Ccm\\Helper\\Facades\\APIHandlerFacade",
+                "AuthHandler": "Ccm\\Helper\\Facades\\AuthHandlerFacade"
+            }
+        }
+    },    
     "require": {}
 }

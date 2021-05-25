@@ -30,6 +30,7 @@ class HelperServiceProvider extends ServiceProvider
         if (file_exists($file = app_path('Helpers/helpers.php')))
         {
             require $file;
-        }
+        } 
+        
     }
 }
